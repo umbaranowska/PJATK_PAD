@@ -1,2 +1,2 @@
 # PJA_PAD
-prace domowe PAD 2022
+prace domowe Programowanie dla Analityki Danych 2022 / homework assignments in Programming for Data Analysis
