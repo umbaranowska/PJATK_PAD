@@ -51,7 +51,7 @@ class Game():
             self.mistakes_allowed = 5
         else:
             self.mistakes_allowed = 3
-            
+
 
 class Hangman(Game):
 

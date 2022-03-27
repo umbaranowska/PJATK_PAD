@@ -1,7 +1,4 @@
 .ipynb_checkpoints/
 *Baranowska.ipynb
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/PJATK_PAD.iml
+.idea/
+*Baranowska.py
