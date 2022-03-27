@@ -67,6 +67,8 @@ class Hangman(Game):
         while play_again == 'y':
             self.main_play()
             play_again = input('Do you want to play again? [y/n]')
+            while play_again not in ['y', 'n']:
+                play_again = input('Do you want to play again? [y/n]')
         print('Thank you for playing Hangman, goodbye!')
 
     def main_play(self):
@@ -79,7 +81,7 @@ class Hangman(Game):
         print("1...")
         cls()
         if self.number_of_players == 1:
-            print(f'Remember you can only play in one player mode {len(self.words)} times!')
+            print(f'Remember you can only play in single player mode {len(self.words)} times!')
             self.one_player_mode()
         else:
             self.two_player_mode()
