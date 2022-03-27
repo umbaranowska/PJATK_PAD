@@ -65,6 +65,7 @@ class Hangman(Game):
             play_again = input('Do you want to play again? [y/n]')
         while play_again == 'y':
             self.main_play()
+            play_again = input('Do you want to play again? [y/n]')
         print('Thank you for playing Hangman, goodbye!')
 
     def main_play(self):
