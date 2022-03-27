@@ -112,20 +112,29 @@ class Hangman(Game):
                     '''
                 )
         if self.mistakes_allowed == 0:
-            print("OH NO! You made too many mistakes, GAME OVER!")
+            print(
+                f'''OH NO! You made too many mistakes, GAME OVER!
+                The word was {self.target_word}'''
+            )
         else:
             print("CONGRATULATIONS! You won!")
 
     def one_player_mode(self):
-        self.target_word = self.words.pop()
-        print(
-            f'''You have to guess a word I chose for you!
-            The word is {len(self.target_word)} letters long.
-            You will be asked to guess one letter at a time,
-            you are allowed to guess wrong {self.mistakes_allowed} times
-            Let's play!'''
-        )
-        self.letter_guessing()
+        if len(self.words) > 0:
+            self.target_word = self.words.pop()
+            print(
+                f'''You have to guess a word I chose for you!
+                The word is {len(self.target_word)} letters long.
+                You will be asked to guess one letter at a time,
+                you are allowed to guess wrong {self.mistakes_allowed} times
+                Let's play!'''
+            )
+            self.letter_guessing()
+        else:
+            print(
+                '''Sorry, you have guessed all the words available in single player mode :( 
+                You can still enjoy the game with a friend!'''
+            )
 
     def two_player_mode(self):
         print('Player one!')
