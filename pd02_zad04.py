@@ -32,6 +32,8 @@ class Game():
         number_of_players = input('First things first, how many players are there? [1/2] ')
         while number_of_players not in ["1", "2"]:
             number_of_players = input('This game was designed for either 1 or 2 players, try again! [1/2] ')
+        self.number_of_players = int(number_of_players)
+
         difficulty_level = input(
             '''Great! What difficulty level do you prefer?
             1 - easy (8 wrong guesses allowed)
@@ -49,8 +51,7 @@ class Game():
             self.mistakes_allowed = 5
         else:
             self.mistakes_allowed = 3
-
-        self.number_of_players = int(number_of_players)
+            
 
 class Hangman(Game):
 
