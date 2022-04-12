@@ -4,4 +4,5 @@ prace domowe - Programowanie dla Analityki Danych / homework assignments - Progr
 - **pd01** - ćwiczenia z podstaw pythona (typy zmiennych, funkcje, obiektowość)
 - **pd02** - ćwiczenia z tworzenia funkcji lambda oraz gra w wisielca, w którą można grać w terminalu
 - **pd03** - ćwiczenia z podstaw pracy w bibliotece pandas, wczytywanie danych, podstwy pracy z pd.DataFrame
-- **pd04** - ćwiczenia z podstaw macierzy w bibliotece numpy
+- **pd04** - ćwiczenia z podstaw macierzy w bibliotece numpy i dodatkowe zadanie (pandas, groupby)
+- **pd05** - ćwiczenia z przekształcania i łączenia danych w bibliotece pandas
