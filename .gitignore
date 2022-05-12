@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
 .idea/
+*.docx
+pd06/scraper_demo.py
