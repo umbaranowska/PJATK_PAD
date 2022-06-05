@@ -8,5 +8,10 @@ prace domowe - Programowanie dla Analityki Danych / homework assignments - Progr
 - **pd05** - ćwiczenia z przekształcania i łączenia danych w bibliotece pandas
 - **pd06** - ćwiczenia z web scrapingu
 - **pd07** - ćwiczenia z wizualizacji danych
+- ~~**pd08** - brak~~
+- **pd09** - ćwiczenia ze statsmodels i scipy (test T, regresja)
+- **pd10** - ćwiczenia z tworzenia dashboardów w pakiecie streamlit
+- **pd11** - ćwiczenia z tworzenia dashboardów w pakiecie dash
+- **pd12** - ćwiczenia z sklearn
 
 branch work_in_progress służy do synchronizowania / kopii zapasowej zaczętych zadań, gotowe rozwiązania - merge do main
